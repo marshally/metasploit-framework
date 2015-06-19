@@ -1,3 +1,8 @@
 engines:
-  - rubocop: true
-  - jshint: true
+  rubocop:
+    enabled: true
+
+ratings:
+  paths:
+  - app/**
+  - lib/**
